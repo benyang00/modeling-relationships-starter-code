@@ -1,7 +1,7 @@
-class CreateIngredient < ActiveRecord::Migration
+class CreateIngredients < ActiveRecord::Migration
   def change
 
-    create_table :course do |t|
+    create_table :ingredients do |t|
 
       t.string :name, null: false, limit: 50
 

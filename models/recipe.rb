@@ -1,6 +1,6 @@
 class Recipe <ActiveRecord::Base
 
   belongs_to :course
-  has_many_and_belong_to :ingredient
+  has_and_belongs_to_many :ingredients
 
 end
